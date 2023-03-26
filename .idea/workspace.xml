@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa4abd88-7242-4ff9-acec-5ae6ec236e95" name="Changes" comment="homework 6.1">
-      <change afterPath="$PROJECT_DIR$/src/homework/HW62.java" afterDir="false" />
+    <list default="true" id="fa4abd88-7242-4ff9-acec-5ae6ec236e95" name="Changes" comment="homework 6.2">
+      <change afterPath="$PROJECT_DIR$/src/homework/HW71/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/HW71/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/HW71/Salary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/HW72/Block.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/HW72/Cube.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/HW72/Fighter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,13 +41,13 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HW62">
-    <configuration name="HW2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.HW2" />
+  <component name="RunManager" selected="Application.Fighter">
+    <configuration name="Block" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.HW72.Block" />
       <module name="RedRoverSchool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.*" />
+          <option name="PATTERN" value="homework.HW72.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -50,12 +55,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HW4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.HW4" />
+    <configuration name="Fighter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.HW72.Fighter" />
       <module name="RedRoverSchool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.*" />
+          <option name="PATTERN" value="homework.HW72.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Fighter" />
+        <item itemvalue="Application.Block" />
         <item itemvalue="Application.HW62" />
         <item itemvalue="Application.HW61" />
         <item itemvalue="Application.HW5" />
-        <item itemvalue="Application.HW4" />
-        <item itemvalue="Application.HW2" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679611184652</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="homework 6.2">
+      <created>1679667103759</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1679667103759</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,17 +181,7 @@
     <MESSAGE value="homework 4" />
     <MESSAGE value="homework 5" />
     <MESSAGE value="homework 6.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 6.1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/homework/HW62.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="homework 6.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 6.2" />
   </component>
 </project>

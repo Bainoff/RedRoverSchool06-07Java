@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa4abd88-7242-4ff9-acec-5ae6ec236e95" name="Changes" comment="homework 7 all commit 1">
-      <change afterPath="$PROJECT_DIR$/src/homework/HW81/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/HW81/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/HW82/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/HW82/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/HW82/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/HW82/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/HW82/Worker.java" afterDir="false" />
+    <list default="true" id="fa4abd88-7242-4ff9-acec-5ae6ec236e95" name="Changes" comment="homework 8 all commit 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/HW82/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/HW82/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/HW82/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/HW82/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/HW82/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/HW82/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/HW82/Worker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/HW82/Worker.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679836546906</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="homework 8 all commit 1">
+      <created>1680563057818</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680563057818</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -191,6 +195,7 @@
     <MESSAGE value="homework 6.1" />
     <MESSAGE value="homework 6.2" />
     <MESSAGE value="homework 7 all commit 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 7 all commit 1" />
+    <MESSAGE value="homework 8 all commit 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 8 all commit 1" />
   </component>
 </project>

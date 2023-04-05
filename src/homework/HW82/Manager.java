@@ -11,7 +11,8 @@ public class Manager extends Worker{
     private int numOfSubs;
 
     public Manager(String name, int baseSalary, int numberOfSubordinates) {
-        super();
+        super(name, baseSalary);
+        this.numOfSubs = numberOfSubordinates;
     }
 
     public void setNumberOfSubordinates(int numOfSubs) {this.numOfSubs = numOfSubs;}
@@ -19,7 +20,7 @@ public class Manager extends Worker{
     public int getNumberOfSubordinates() {return numOfSubs;}
 
     public int getSalaryManager() {
-        if (numOfSubs > 0) return getBaseSalary() * (getNumberOfSubordinates() / 100 * 3);
+        if (numOfSubs > 0) return (int) (getBaseSalary() * (getNumberOfSubordinates() / 100.0 * 3));
         else return getSalaryWorker();
     }
 }

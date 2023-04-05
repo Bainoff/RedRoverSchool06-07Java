@@ -8,8 +8,8 @@ public class Employee {
 // getBaseSalary - базовая ставка
 // setBaseSalary
 
-    String name;
-    int baseSalary;
+    private String name;
+    private int baseSalary;
 
     public Employee(String name, int baseSalary) {
         this.name = name;

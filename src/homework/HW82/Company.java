@@ -5,101 +5,103 @@ public class Company {
 
 // Необходимо создать класс со следующими методами:
 
-    public Employee[] workers;
-    public Manager[] managers;
+//    public Employee[] workers;
+//    public Manager[] managers;
 
-    public Company(Employee[] workers) {
-        for (int i = 0; i < workers.length; i++) {
-            workers[i] = new Employee(workers[i].getName(), workers[i].getBaseSalary());
-        }
-    }
-
-    public Company(Manager[] managers) {
-        for (int i = 0; i < managers.length; i++) {
-            managers[i] = new Manager(managers[i].getName(), managers[i].getBaseSalary(), managers[i].getNumberOfSubordinates());
-        }
-    }
+//    public Company(Employee[] workers) {
+//        for (int i = 0; i < workers.length; i++) {
+//            workers[i] = new Employee(workers[i].getName(), workers[i].getBaseSalary());
+//        }
+//    }
+//
+//    public Company(Manager[] managers) {
+//        for (int i = 0; i < managers.length; i++) {
+//            managers[i] = new Manager(managers[i].getName(), managers[i].getBaseSalary(), managers[i].getNumberOfSubordinates());
+//        }
+//    }
 //TODO поиск сотрудника в массиве по его имени
 
-    public String getEmployeeName(String name) {
+    public String getEmployeeName(String name, Employee[] workers) {
         for (int i = 0; i < workers.length; i++) {
-            if (name.equals(workers[i].name)) return "worker number " + (i + 1);
+            if (name.equals(workers[i].getName())) return "worker number " + (i + 1);
         }
         return "There is no worker with this name";
     }
 
 //TODO поиск сотрудника в массиве по вхождению указанной строки в его имени
 
-    public String getEmployeeNamePart(String namePart) {
+    public String getEmployeeNamePart(String namePart, Employee[] workers) {
         for (int i = 0; i < workers.length; i++) {
-            if (workers[i].name.contains(namePart)) return "worker number " + (i + 1);
+            if (workers[i].getName().contains(namePart)) return "worker number " + (i + 1);
         }
         return "There is no worker with this name";
     }
 
 //TODO подсчет зарплатного бюджета для всех сотрудников в массиве
 
-    public int getCompanySalary() {
+    public int getCompanySalary(Employee[] workers) {
         int compSalary = 0;
-        for (int i = 0; i < workers.length; i++) {
-            compSalary += workers[i].baseSalary;
+        for (Employee worker : workers) {
+            compSalary += worker.getBaseSalary();
         }
         return compSalary;
     }
 
 //TODO поиск наименьшей зарплаты в массиве
 
-    public int getMinCompanySalary() {
+    public int getMinCompanySalary(Employee[] workers) {
         int minSalary = Integer.MAX_VALUE;
-        for (int i = 0; i < workers.length; i++) {
-            if (workers[i].baseSalary < minSalary) minSalary = workers[i].baseSalary;
+        for (Employee worker : workers) {
+            if (worker.getBaseSalary() < minSalary) minSalary = worker.getBaseSalary();
         }
         return minSalary;
     }
 
 //TODO поиск наибольшей зарплаты в массиве
 
-    public int getMaxCompanySalary() {
+    public int getMaxCompanySalary(Employee[] workers) {
         int maxSalary = Integer.MIN_VALUE;
-        for (int i = 0; i < workers.length; i++) {
-            if (workers[i].baseSalary > maxSalary) maxSalary = workers[i].baseSalary;
+        for (Employee worker : workers) {
+            if (worker.getBaseSalary() > maxSalary) maxSalary = worker.getBaseSalary();
         }
         return maxSalary;
     }
 
 //TODO поиск наименьшего количества подчиненных в массиве менеджеров
 
-    public int getMinNumberOfSubordinates() {
+    public int getMinNumberOfSubordinates(Manager[] managers) {
         int minNumOfSubs = Integer.MAX_VALUE;
-        for (int i = 0; i < managers.length; i++) {
-            if (managers[i].getNumberOfSubordinates() > minNumOfSubs) minNumOfSubs = managers[i].getNumberOfSubordinates();
+        for (Manager manager : managers) {
+            if (manager.getNumberOfSubordinates() < minNumOfSubs) minNumOfSubs = manager.getNumberOfSubordinates();
         }
     return minNumOfSubs;}
 
 //TODO поиск наибольшего количества подчиненных в массиве менеджеров
 
-    public int getMaxNumberOfSubordinates() {
+    public int getMaxNumberOfSubordinates(Manager[] managers) {
         int maxNumOfSubs = Integer.MIN_VALUE;
-        for (int i = 0; i < managers.length; i++) {
-            if (managers[i].getNumberOfSubordinates() < maxNumOfSubs) maxNumOfSubs = managers[i].getNumberOfSubordinates();
+        for (Manager manager : managers) {
+            if (manager.getNumberOfSubordinates() > maxNumOfSubs) maxNumOfSubs = manager.getNumberOfSubordinates();
         }
         return maxNumOfSubs;}
 
 //TODO поиск наибольшей надбавки (разнице между базовой ставкой и зарплатой) в массиве менеджеров
 
-    public int getMaxBonus() {
+    public int getMaxBonus(Manager[] managers) {
         int maxBonus = Integer.MIN_VALUE;
-        for (int i = 0; i < managers.length; i++) {
-            if ((managers[i].getSalaryManager() - managers[i].getBaseSalary()) > maxBonus) maxBonus = managers[i].getSalaryManager() - managers[i].getBaseSalary();
+        for (Manager manager : managers) {
+            if ((manager.getSalaryManager() - manager.getBaseSalary()) > maxBonus)
+                maxBonus = manager.getSalaryManager() - manager.getBaseSalary();
         }
     return maxBonus;}
 
 //TODO поиск наименьшей надбавки (разнице между базовой ставкой и зарплатой) в массиве менеджеров
 
-    public int getMinBonus() {
+    public int getMinBonus(Manager[] managers) {
         int minBonus = Integer.MAX_VALUE;
-        for (int i = 0; i < managers.length; i++) {
-            if ((managers[i].getSalaryManager() - managers[i].getBaseSalary()) > minBonus) minBonus = managers[i].getSalaryManager() - managers[i].getBaseSalary();
+        for (Manager manager : managers) {
+            if ((manager.getSalaryManager() - manager.getBaseSalary()) < minBonus)
+                minBonus = manager.getSalaryManager() - manager.getBaseSalary();
         }
         return minBonus;}
 }

@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa4abd88-7242-4ff9-acec-5ae6ec236e95" name="Changes" comment="homework 8 all commit 2">
-      <change afterPath="$PROJECT_DIR$/src/homework/HW9/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/HW9/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/HW9/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/HW9/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/HW9/Worker.java" afterDir="false" />
+    <list default="true" id="fa4abd88-7242-4ff9-acec-5ae6ec236e95" name="Changes" comment="homework 9 commit 1&#10;homework 8 commit 3">
+      <change afterPath="$PROJECT_DIR$/src/homework/HW10/CodeWars11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/HW10/CodeWars12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/HW10/CodeWars13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/HW10/CodeWars14.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/HW10/CodeWars15.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/HW10/CodeWars21.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/HW10/CodeWars22.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/HW10/CodeWars23.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/HW10/CodeWars24.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/HW10/CodeWars25.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/homework/HW82/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/HW82/Company.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,18 +38,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/courses/java/rrschool/src/homework/HW9"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/courses/java/rrschool/src/homework/HW9&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\courses\java\rrschool\src\homework\HW9" />
@@ -192,7 +196,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680708181852</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="homework 9 commit 1&#10;homework 8 commit 3">
+      <created>1681069716228</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1681069716228</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -216,6 +227,7 @@
     <MESSAGE value="homework 7 all commit 1" />
     <MESSAGE value="homework 8 all commit 1" />
     <MESSAGE value="homework 8 all commit 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 8 all commit 2" />
+    <MESSAGE value="homework 9 commit 1&#10;homework 8 commit 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 9 commit 1&#10;homework 8 commit 3" />
   </component>
 </project>

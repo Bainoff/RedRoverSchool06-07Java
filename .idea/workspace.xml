@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa4abd88-7242-4ff9-acec-5ae6ec236e95" name="Changes" comment="homework 10 commit 1">
-      <change afterPath="$PROJECT_DIR$/src/homework/HW10/CodeWars31.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/HW10/CodeWars32.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/HW10/CodeWars33.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/HW10/CodeWars34.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework/HW10/CodeWars35.java" afterDir="false" />
+    <list default="true" id="fa4abd88-7242-4ff9-acec-5ae6ec236e95" name="Changes" comment="homework 10 commit 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -205,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681226031310</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="homework 10 commit 2">
+      <created>1682776630679</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682776630679</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,6 +233,7 @@
     <MESSAGE value="homework 8 all commit 2" />
     <MESSAGE value="homework 9 commit 1&#10;homework 8 commit 3" />
     <MESSAGE value="homework 10 commit 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 10 commit 1" />
+    <MESSAGE value="homework 10 commit 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 10 commit 2" />
   </component>
 </project>

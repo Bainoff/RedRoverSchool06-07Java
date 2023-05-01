@@ -20,7 +20,7 @@ public class Manager extends Worker{
     public int getNumberOfSubordinates() {return numOfSubs;}
 
     public int getSalaryManager() {
-        if (numOfSubs > 0) return (int) (getBaseSalary() * (getNumberOfSubordinates() / 100.0 * 3));
+        if (numOfSubs > 0) return (int) (getBaseSalary() + getBaseSalary() * (getNumberOfSubordinates() / 100.0 * 3));
         else return getSalaryWorker();
     }
 }

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa4abd88-7242-4ff9-acec-5ae6ec236e95" name="Changes" comment="homework 10 commit 2">
+    <list default="true" id="fa4abd88-7242-4ff9-acec-5ae6ec236e95" name="Changes" comment="homework 10 commit 3">
+      <change afterPath="$PROJECT_DIR$/src/homework/Calc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/HW131/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/HW131/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/HW131/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework/HW131/Worker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +50,20 @@
       <recent name="D:\courses\java\rrschool\src\homework\HW9" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CodeWars35$Solution">
+  <component name="RunManager" selected="Application.Calc">
+    <configuration name="Calc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.Calc" />
+      <module name="RedRoverSchool" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CodeWars33$Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework.HW10.CodeWars33$Kata" />
       <module name="RedRoverSchool" />
@@ -85,19 +103,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Manager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.HW81.Manager" />
-      <module name="RedRoverSchool" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="homework.HW81.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="homework.HW82.Company" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework.HW82.Company" />
       <module name="RedRoverSchool" />
@@ -113,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Calc" />
         <item itemvalue="Application.CodeWars35$Solution" />
         <item itemvalue="Application.CodeWars33$Kata" />
         <item itemvalue="Application.homework.HW82.Company" />
         <item itemvalue="Application.Company" />
-        <item itemvalue="Application.Manager" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682776630679</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="homework 10 commit 3">
+      <created>1682958511366</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682958511366</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,6 +246,7 @@
     <MESSAGE value="homework 9 commit 1&#10;homework 8 commit 3" />
     <MESSAGE value="homework 10 commit 1" />
     <MESSAGE value="homework 10 commit 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 10 commit 2" />
+    <MESSAGE value="homework 10 commit 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 10 commit 3" />
   </component>
 </project>

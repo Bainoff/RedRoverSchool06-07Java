@@ -87,10 +87,10 @@ public class MonthUtils {
         return monthArray;
     }
 
-    public static final class Month {
-        private static String monthName;
-        private static int numberOfDays;
-        private static int numberOfWorkDays;
+    public static class Month {
+        private final String monthName;
+        private final int numberOfDays;
+        private final int numberOfWorkDays;
 
         public String getMonthName(){
             return monthName;

@@ -1,4 +1,4 @@
 package homework.HW132;
 
-public class BaseEmployee {
+public abstract class BaseEmployee {
 }

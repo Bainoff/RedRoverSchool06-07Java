@@ -11,6 +11,11 @@ public final class Director extends Employee{
 
     private int numberOfSubordinates;
 
+    public Director(int baseSalary, String name, int numberOfSubordinates) {
+        super(baseSalary, name);
+        this.numberOfSubordinates = numberOfSubordinates;
+    }
+
     public int getNumberOfSubordinates() {
         return numberOfSubordinates;
     }

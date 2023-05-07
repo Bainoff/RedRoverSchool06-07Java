@@ -14,6 +14,11 @@ public final class Manager extends Employee{
 
     private int numberOfSubordinates;
 
+    public Manager(int baseSalary, String name, int numberOfSubordinates) {
+        super(baseSalary, name);
+        this.numberOfSubordinates = numberOfSubordinates;
+    }
+
     public int getNumberOfSubordinates() {
         return numberOfSubordinates;
     }
@@ -21,7 +26,8 @@ public final class Manager extends Employee{
     public void setNumberOfSubordinates(int numberOfSubordinates) {
         this.numberOfSubordinates = numberOfSubordinates;
     }
-//TODO    в классе, метод getSalary будет возвращать значение по формуле
+
+// TODO    в классе, метод getSalary будет возвращать значение по формуле
 //        - <базовая ставка> * (<количество подчиненных> / 100 * 3).
 //    Если количество подчиненных 0, то результат как у обычного рабочего.
 

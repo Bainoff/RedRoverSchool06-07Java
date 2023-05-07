@@ -13,6 +13,11 @@ public abstract class Employee {
     private int baseSalary;
     private String name;
 
+    public Employee(int baseSalary, String name) {
+        this.baseSalary = baseSalary;
+        this.name = name;
+    }
+
     public int getBaseSalary() {
         return baseSalary;
     }

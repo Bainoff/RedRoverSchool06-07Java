@@ -25,9 +25,5 @@ public class Calc {
                 System.out.println(a / b);
                 break;
         }
-
-
     }
-
-
 }

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa4abd88-7242-4ff9-acec-5ae6ec236e95" name="Changes" comment="homework 13.2 commit 3">
+    <list default="true" id="fa4abd88-7242-4ff9-acec-5ae6ec236e95" name="Changes" comment="homework 13.2 commit 4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/homework/HW2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/homework/HW2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
       <recent name="D:\courses\java\rrschool\src\homework\HW9" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Calc">
+  <component name="RunManager" selected="Application.HW2">
     <configuration name="Calc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="homework.Calc" />
       <module name="RedRoverSchool" />
@@ -85,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Company" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.HW9.Company" />
+    <configuration name="HW1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.HW1" />
       <module name="RedRoverSchool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.HW9.*" />
+          <option name="PATTERN" value="homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="homework.HW82.Company" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="homework.HW82.Company" />
+    <configuration name="HW2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework.HW2" />
       <module name="RedRoverSchool" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homework.HW82.*" />
+          <option name="PATTERN" value="homework.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HW2" />
+        <item itemvalue="Application.HW1" />
         <item itemvalue="Application.Calc" />
         <item itemvalue="Application.CodeWars35$Solution" />
         <item itemvalue="Application.CodeWars33$Kata" />
-        <item itemvalue="Application.homework.HW82.Company" />
-        <item itemvalue="Application.Company" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +243,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683494458365</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="homework 13.2 commit 4">
+      <created>1683891883010</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1683891883010</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,6 +282,7 @@
     <MESSAGE value="homework 13.2 commit 1" />
     <MESSAGE value="homework 13.2 commit 2" />
     <MESSAGE value="homework 13.2 commit 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework 13.2 commit 3" />
+    <MESSAGE value="homework 13.2 commit 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="homework 13.2 commit 4" />
   </component>
 </project>

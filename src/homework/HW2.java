@@ -17,6 +17,25 @@ public class HW2 {
 
         //TODO extra
 
+//        Задача №2
+//        Создать программу дележа добычи на пиратском корабле. По обычаю, половина добычи идет владельцу корабля,
+//        половина оставшегося — капитану, остальное делится поровну между всеми членами команды, включая капитана.
+//        Размер добычи (например, в пиастрах) и количество пиратов на корабле задать переменными.
+//        Вывести на экран кому сколько пиастров полагается.
+//        Дополнительное задание со звездочкой
+//        Попробовать придумать как программа может проверить правильность дележа.
+        int booty = 100;
+        double shipOwnersPart = booty / 2;
+        double captainsPart = shipOwnersPart / 2;
+        int numberOfSailors = 5;
+        double sailorsPart = booty / 2 / 2 / numberOfSailors;
+        boolean check = (shipOwnersPart + captainsPart + sailorsPart * numberOfSailors) == booty;
+
+        System.out.println( "ship owner's part equals " + booty/2 +
+                            "\ncaptain's part equals " + booty/2/2 +
+                            "\neach sailor's part equals " + booty/2/2/numberOfSailors +
+                            "\nbooty divided correctly? " + check);
+
 //        Экстра задача
 //        Также вывести остаток от деления и сделать проверку на четность этих переменных.
         System.out.println("Task 2:");

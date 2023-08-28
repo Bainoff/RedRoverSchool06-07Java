@@ -1,5 +1,7 @@
 package homework;
 
+import java.util.Arrays;
+
 public class HW61 {
     public static void main(String[] args) {
 //    Дан массив:
@@ -45,6 +47,47 @@ public class HW61 {
         avg = sum2 / array4.length;
         System.out.println(avg);
 
+//        Дан массив произвольных целых чисел.
+//        необходимо подсчитать количество положительных и отрицательных чисел в этом массиве.
+        int[] array8 = {1, 2, 3, 4, 5, 6, 7, 8, 9, -1, -2, -3, -4, -5, -6};
+        int counterPos = 0, counterNeg = 0, counterZeroes = 0;
+        for (int i : array8) {
+            if (i > 0) counterPos++;
+            else if (i < 0) counterNeg++;
+            else counterZeroes++;
+        }
+        System.out.println("positive numbers: " + counterPos);
+        System.out.println("negative numbers: " + counterNeg);
+        System.out.println("number of zeroes: " + counterZeroes);
+
+//        Дан массив произвольных целых чисел.
+//        проверить, отсортирован ли он, т.е. все ли числа в массиве стоят так, что каждое следующее число больше предыдущего.
+        int[] array9 = {-1, 2, 3, 7, 999, 997};
+        for (int i = 1; i < array9.length; i++) {
+            if (array9[i] < array9[i - 1]) {
+                System.out.println("array isn't sorted");
+                break;
+            } else {
+                if (i == (array9.length - 1)) System.out.println("array is sorted");
+            }
+        }
+
+//        Дано положительное целое число n.
+//        Cоздать ряд из n чисел так, чтобы:
+//        первые два элемента ряда равнялись 1
+//        любой другой элемент ряда был суммой двух предыдущих.
+//        Пример:
+//        1, 1, 2, 3, 5, 8, …
+//        Вывести получившийся ряд на экран.
+        int n = 10;
+        int[] array10 = new int[n];
+        array10[0] = 1;
+        array10[1] = 1;
+        for (int i = 0; i < (array10.length - 2); i++) {
+            array10[i+2] = array10[i] + array10[i+1];
+        }
+        System.out.println(Arrays.toString(array10));
+
 //        Дан массив:
 //        int[][] array = {{1, 2, 3, 4, 5}, {6, 7, 8, 9}, {-1, -2, -3, -4}, {-5, -6}};
 //        необходимо вывести сумму элементов массива.
@@ -76,7 +119,7 @@ public class HW61 {
         int counter = 0;
         for (int i = 0; i < array7.length; i++) {
             for (int j = 0; j < array7[i].length; j++) {
-               counter++;
+                counter++;
             }
         }
         System.out.println(counter);
